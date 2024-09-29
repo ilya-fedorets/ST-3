@@ -38,7 +38,7 @@ class TimedDoor : public Door {
   bool isDoorOpened();
   void unlock();
   void lock();
-  int  getTimeOut();
+  int  getTimeOut() const};
   void throwState();
 };
 
